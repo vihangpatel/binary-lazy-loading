@@ -15,7 +15,13 @@
     "type": "git",
     "url": "git+https://github.com/vihangpatel/binary-lazy-loading.git"
   },
-  "author": "",
+  "author": "Vihang Patel <vihang.engg@gmail.com>",
+	"contributors": [
+		{
+			"name": "Manjula Dube",
+			"email": "dube.manjula668@gmail.com"
+		}
+	],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vihangpatel/binary-lazy-loading/issues"
