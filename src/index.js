@@ -107,12 +107,9 @@ class Img extends Component {
 		const wrapperStyle = this.props.inheritDimension ? __imageWrapper : {}
 		let imgStyle = __image
 
-		if(this.props.preview) { 
-			imgStyle = { ...imgStyle, ...__imagePreview }
-		} else {
-			imgStyle = { ...imgStyle, ...__imageNormal }
-		}
-		
+		imgStyle = this.props.preview ? 
+		 	{ ...imgStyle, ...__imagePreview } 
+		 : { ...imgStyle, ...__imageNormal }		
 
 		return (
 			<div 
