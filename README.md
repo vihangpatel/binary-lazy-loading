@@ -7,7 +7,8 @@ Call `registerLazyImageScrollHandler()` in `componentDidMount` of root class to 
  
 Import it using the below 
 
-`import LazyImage from 'lazy-image'` & whereever image tag is needed, use
+`import LazyImage from 'lazy-image'` 
+
 
 `<LazyImage src={this.props.src} />`.
 
