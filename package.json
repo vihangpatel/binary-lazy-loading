@@ -1,6 +1,6 @@
 {
-  "name": "lazy-test",
-  "version": "0.1.0",
+  "name": "binary-lazy-loading",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.5.0",
